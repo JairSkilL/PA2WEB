@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+
+
+
+header {
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    width: 180px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 1px;
+}
+
+header h1 {
+   font-family: "Playfair Display", serif;
+    
+    font-size: 2.8em;
+    color: whitesmoke;      
+    
+
+    text-transform: uppercase;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+header nav ul li {
+   display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    color: darkslategray;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+     color:blue;
+    border-bottom: 2px solid white
+}
+
+main {
+    position: relative; 
+    padding: 120px;
+    background-image: url("imagenes/fondo horizontal.webp");
+    background-color: rgba(0, 0, 0, 0.8); 
+    background-blend-mode: darken;       
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white; 
+    text-align: center; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+main p {
+    font-size: 1.1em;
+    margin: 0 auto 30px;
+    max-width: 600px;
+    color: whitesmoke; 
+    text-align: center;
+}
+
+main ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+main ul li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+main ul li a:hover {
+    text-decoration:double;
+}
+
+.redes-sociales {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+.redes-sociales a {
+    color: darkslategray;
+    font-size: 1.8em;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.redes-sociales a:hover {
+    color:blue;
+} 
+
